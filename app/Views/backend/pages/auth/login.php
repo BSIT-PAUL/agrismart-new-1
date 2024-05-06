@@ -52,7 +52,7 @@
 
         <div class="text-right mb-4">
             <div class="forgot-password">
-                <a href="<?= route_to('admin.forgot.form') ?>">Forgot Password</a>
+                <a href="<?= base_url(route_to('admin.forgot.form')) ?>">Forgot Password</a>
             </div>
         </div>
         <div class="row">
@@ -62,7 +62,7 @@
                 </div>
                 <div class="text-center  mb-0 font-weight-light register">
                     Don't have an account?
-                    <a class="pl-1" href="<?= route_to('register') ?>">Register</a>
+                    <a class="pl-1" href="<?= base_url(route_to('register')) ?>">Register</a>
                 </div>
             </div>
         </div>
